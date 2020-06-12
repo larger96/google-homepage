@@ -2,6 +2,17 @@
 <html>
     <head>
         <title>Google</title>
+        <style>
+            body {
+                height: 100vh;
+            }
+            #navbar {
+                position: fixed;
+            }
+            .main-content {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -19,11 +30,13 @@
                 </div>
                 <div>
                     <form action="">
-                        <input type="text" >
-                        <button>Google Search</button>
-                        <button>I'm Feeling Lucky</button>
+                        <input type="text" id="search"><br>
+                        <br>
+                        <button type="submit">Google Search</button>
+                        <button type="submit">I'm Feeling Lucky</button>
                     </form>
                 </div>
+            </div>
         </main>
         <footer>
             <div>
